@@ -1,0 +1,102 @@
+body {
+  background: #fcf8fc;
+  color: #606060;
+  font-size: 16px;
+  font-family: sans-serif; }
+
+h1, h3, p {
+  margin: 0 0 16px;
+  padding: 0; }
+
+h1, h3 {
+  font-family: sans-serif;
+  text-transform: uppercase; }
+
+a, a:link, a:visited, a:hover {
+  color: #38c0fc;
+  text-decoration: none; }
+
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 16px;
+  width: 288px;
+  height: 100%; }
+  aside h1 {
+    margin: 0 0 32px; }
+    aside h1 a, aside h1 a:link, aside h1 a:visited, aside h1 a:hover {
+      display: block;
+      width: 256px;
+      height: 64px;
+      overflow: hidden;
+      background: transparent url(/images/52_weeks.png) 0 0 no-repeat;
+      outline: none;
+      text-indent: -9000px; }
+  aside p.social {
+    padding: 16px 0;
+    text-align: center; }
+    aside p.social a, aside p.social a:link, aside p.social a:visited, aside p.social a:hover {
+      display: inline-block;
+      margin: 0 16px;
+      width: 32px;
+      height: 32px;
+      overflow: hidden;
+      text-indent: 32px; }
+    aside p.social a.twitter {
+      background: transparent url(/images/twitter.png) 0 0 no-repeat; }
+    aside p.social a.instagram {
+      background: transparent url(/images/instagram.png) 0 0 no-repeat; }
+    aside p.social a.github {
+      background: transparent url(/images/github.png) 0 0 no-repeat; }
+
+main {
+  padding-left: 288px; }
+  main article {
+    margin: 0 16px;
+    border-top: 4px solid #c8c0c0; }
+    main article:first-child {
+      border-top: none; }
+    main article:after {
+      display: block;
+      clear: both;
+      content: ' '; }
+    main article section {
+      display: inline;
+      float: left;
+      margin-right: 16px;
+      padding: 16px 0; }
+    main article section.image {
+      width: 640px; }
+      main article section.image img {
+        display: block;
+        margin: 0;
+        padding: 0; }
+    main article section.details {
+      width: 400px; }
+  main nav {
+    margin: 0 16px;
+    padding: 16px 0; }
+    main nav:after {
+      display: block;
+      clear: both;
+      content: ' '; }
+    main nav a, main nav a:link, main nav a:visited, main nav a:hover {
+      display: block;
+      width: 104px;
+      height: 32px;
+      overflow: hidden;
+      background: transparent url(/images/pagination.png) 0 0 no-repeat;
+      outline: none;
+      text-indent: 104px; }
+    main nav a.previous {
+      float: left;
+      background-position: 0 0; }
+      main nav a.previous:hover {
+        background-position: 0 -32px; }
+    main nav a.next {
+      float: right;
+      background-position: -104px 0; }
+      main nav a.next:hover {
+        background-position: -104px -32px; }

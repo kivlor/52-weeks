@@ -1,0 +1,16 @@
+---
+layout: layout
+title: Home
+---
+{% for post in paginator.posts %}
+<article>
+	<section class="image">
+		<img src="/art/{{ post.feature }}" alt="{{ post.title }}">
+	</section>
+
+	<section class="details">
+		<h1><time datetime="{{ post.date }}">{{ post.title }}</time></h1>
+		{{ post.content }}
+	</section>
+</article>
+{% endfor %}

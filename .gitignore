@@ -1,0 +1,9 @@
+# ingore silly ds store files
+.DS_Store
+
+# ignore the sass cache
+.sass-cache
+
+# ignore the build dir
+public
+_site
