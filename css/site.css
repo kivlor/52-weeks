@@ -74,7 +74,15 @@ main {
         margin: 0;
         padding: 0; }
     main article section.details {
+      padding-bottom: 0;
       width: 400px; }
+    main article a.download {
+      display: block;
+      padding-left: 28px;
+      height: 20px;
+      line-height: 20px;
+      background: transparent url(/images/download.png) 0 50% no-repeat;
+      outline: none; }
   main nav {
     margin: 0 16px;
     padding: 16px 0; }

@@ -107,8 +107,21 @@ main {
 		}
 
 		section.details {
+			padding-bottom: 0;
 			width: $basesize*25;
 		}
+
+		a.download {
+			display: block;
+			padding-left: 28px;
+			
+			height: 20px;
+			line-height: 20px;
+
+			background: transparent url(/images/download.png) 0 50% no-repeat;
+			outline: none;
+		}
+
 	}
 
 	nav {
