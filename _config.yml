@@ -3,7 +3,7 @@ exclude: ['Gemfile*', 'Guardfile', 'scss', 'README.md', '.gitignore']
 
 # basic config
 permalink: /:title
-destination: /public
+destination: ./public
 
 # pagination
 paginate: 10
