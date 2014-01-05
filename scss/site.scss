@@ -154,3 +154,72 @@ main {
 		}
 	}
 }
+
+// responsive...
+
+@media only screen and (max-width: 963px) {
+
+	#wrap {
+		padding: 0 $basesize;
+	}
+
+	aside {
+		position: static;
+		top: 0;
+		left: 0;
+
+		margin: 0 auto;
+		padding: $basesize 0 0;
+
+		max-width: $basesize*40; // the answer to the ultimate question of life, the universe, and everything...
+		width: 100%;
+		height: auto;
+
+		border-bottom: 4px solid #c8c0c0;
+	}
+
+	main {
+		margin: 0 auto;
+		padding-left: 0;
+
+		max-width: $basesize*40;
+		width: 100%;
+		height: auto;
+
+		article {
+			margin: 0;
+			padding: $basesize 0;
+
+			section {
+				display: block;
+				float: none;
+				margin-right: 0;
+
+				padding: 0;
+			}
+
+			section.image {
+				margin-bottom: $basesize;
+				width: 100%;
+
+				img {
+					display: block;
+					margin: 0;
+					padding: 0;
+
+					max-width: 100%;
+				}
+			}
+
+			section.details {
+				padding-bottom: 0;
+				width: 100%;
+			}
+		}
+
+		nav {
+			margin: 0;
+			padding: $basesize 0;
+		}
+	}
+}

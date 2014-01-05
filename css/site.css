@@ -103,3 +103,47 @@ main {
       float: right;
       padding-right: 20px;
       background: transparent url(/images/next.png) 100% 50% no-repeat; }
+
+@media only screen and (max-width: 963px) {
+  #wrap {
+    padding: 0 16px; }
+
+  aside {
+    position: static;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 16px 0 0;
+    max-width: 640px;
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #c8c0c0; }
+
+  main {
+    margin: 0 auto;
+    padding-left: 0;
+    max-width: 640px;
+    width: 100%;
+    height: auto; }
+    main article {
+      margin: 0;
+      padding: 16px 0; }
+      main article section {
+        display: block;
+        float: none;
+        margin-right: 0;
+        padding: 0; }
+      main article section.image {
+        margin-bottom: 16px;
+        width: 100%; }
+        main article section.image img {
+          display: block;
+          margin: 0;
+          padding: 0;
+          max-width: 100%; }
+      main article section.details {
+        padding-bottom: 0;
+        width: 100%; }
+    main nav {
+      margin: 0;
+      padding: 16px 0; } }
