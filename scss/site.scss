@@ -123,33 +123,21 @@ main {
 
 		a, a:link, a:visited, a:hover {
 			display: block;
-
-			width: 104px;
-			height: 32px;
-			overflow: hidden;
-
-			background: transparent url(/images/pagination.png) 0 0 no-repeat;
+			height: 20px;
+			line-height: 20px;
 			outline: none;
-
-			text-indent: 104px;
 		}
 
 		a.previous {
 			float: left;
-			background-position: 0 0;
-
-			&:hover {
-				background-position: 0 -32px;
-			}
+			padding-left: 20px;
+			background: transparent url(/images/previous.png) 0 50% no-repeat;
 		}
 
 		a.next {
 			float: right;
-			background-position: -104px 0;
-
-			&:hover {
-				background-position: -104px -32px;				
-			}
+			padding-right: 20px;
+			background: transparent url(/images/next.png) 100% 50% no-repeat;
 		}
 	}
 }

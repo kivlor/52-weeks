@@ -84,19 +84,14 @@ main {
       content: ' '; }
     main nav a, main nav a:link, main nav a:visited, main nav a:hover {
       display: block;
-      width: 104px;
-      height: 32px;
-      overflow: hidden;
-      background: transparent url(/images/pagination.png) 0 0 no-repeat;
-      outline: none;
-      text-indent: 104px; }
+      height: 20px;
+      line-height: 20px;
+      outline: none; }
     main nav a.previous {
       float: left;
-      background-position: 0 0; }
-      main nav a.previous:hover {
-        background-position: 0 -32px; }
+      padding-left: 20px;
+      background: transparent url(/images/previous.png) 0 50% no-repeat; }
     main nav a.next {
       float: right;
-      background-position: -104px 0; }
-      main nav a.next:hover {
-        background-position: -104px -32px; }
+      padding-right: 20px;
+      background: transparent url(/images/next.png) 100% 50% no-repeat; }
