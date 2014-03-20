@@ -12,3 +12,7 @@ paginate_path: "page:num"
 # site details
 title: 'Fifty-Two Weeks'
 author: 'kivlor'
+
+# extra gems
+gems:
+  - jemoji
