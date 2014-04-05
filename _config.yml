@@ -1,6 +1,9 @@
 # exclude some build files
 exclude: ['Gemfile*', 'Guardfile', 'scss', 'README.md', '.gitignore']
 
+# interpretter
+markdown: kramdown
+
 # basic config
 permalink: /:title
 destination: ./public
