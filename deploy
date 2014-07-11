@@ -1,0 +1,7 @@
+#!/bin/bash
+git checkout gh-pages;
+git push origin gh-pages;
+git checkout master;
+git merge gh-pages;
+git push origin master;
+git checkout gh-pages;
