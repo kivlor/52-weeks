@@ -4,4 +4,4 @@ title: Week Forty-Three
 feature: weekfortythree.png
 download: weekfortythree.psd
 ---
-All hallows eve is coming so decided to try another figure... a Zombie!! :brain:
+All hallows eve is coming so decided to try another figure... a Zombie!!
