@@ -1,3 +1,6 @@
+# add plugins...
+gems: ['jekyll-paginate', 'jemoji']
+
 # exclude some build files
 exclude: ['Gemfile*', 'Guardfile', 'scss', 'README.md', '.gitignore']
 
@@ -15,7 +18,3 @@ paginate_path: "page:num"
 # site details
 title: 'Fifty-Two Weeks'
 author: 'kivlor'
-
-# extra gems
-gems:
-  - jemoji
